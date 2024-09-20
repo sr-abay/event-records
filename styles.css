@@ -1,0 +1,61 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.row {
+    display: flex;
+  }
+.column {
+    flex: 50%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+main {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+section {
+    margin: 2rem 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+
+h2 {
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
